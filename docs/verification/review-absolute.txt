@@ -1,0 +1,76 @@
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1902: Package 'System.Security.Cryptography.Pkcs' 9.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Pkcs' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-23rf-6693-g89p
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-37gx-xxp4-5rgx
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6588-8gv4-xfgh
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7hqp-7c5m-4vq6
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8q5v-6pqq-x66h
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-c399-9853-6jmj
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cvvh-rhrc-wg4q
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8r8-53c2-pm3f
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-mmjf-rqrv-855v
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-r955-8q5j-3h83
+/workspace/TWQR-Transaction-Core/src/QrPayment.Infrastructure/QrPayment.Infrastructure.csproj : warning NU1903: Package 'System.Security.Cryptography.Xml' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-w3x6-4m5h-cxqf
+/workspace/TWQR-Transaction-Core/src/QrPayment.WebAPI/QrPayment.WebAPI.csproj : warning NU1903: Package 'Microsoft.OpenApi' 2.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc
+/workspace/TWQR-Transaction-Core/src/QrPayment.WebAPI/QrPayment.WebAPI.csproj : warning NU1903: Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q
+/workspace/TWQR-Transaction-Core/src/QrPayment.WebAPI/QrPayment.WebAPI.csproj : warning NU1902: Package 'System.Security.Cryptography.Pkcs' 9.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7
+/workspace/TWQR-Transaction-Core/src/QrPayment.WebAPI/QrPayment.WebAPI.csproj : warning NU1903: Package 'System.Security.Cryptography.Pkcs' 9.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      PRAGMA journal_mode = 'wal';
+info: Microsoft.EntityFrameworkCore.Migrations[20411]
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+          "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+          "Timestamp" TEXT NOT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2026-10-19 06:48:42.3066483+00:00');
+      SELECT changes();
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+          "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+          "ProductVersion" TEXT NOT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "MigrationId", "ProductVersion"
+      FROM "__EFMigrationsHistory"
+      ORDER BY "MigrationId";
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20251226072135_InitialCreate'.
+Applying migration '20251226072135_InitialCreate'.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Transactions" (
+          "Id" TEXT NOT NULL CONSTRAINT "PK_Transactions" PRIMARY KEY,
+          "IdempotencyKey" TEXT NOT NULL,
+          "Amount" decimal(18,2) NOT NULL,
+          "Currency" TEXT NOT NULL,
+          "Status" INTEGER NOT NULL,
+          "CreatedAt" TEXT NOT NULL,
+          "UpdatedAt" TEXT NULL
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX "IX_Transactions_IdempotencyKey" ON "Transactions" ("IdempotencyKey");
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+      VALUES ('20251226072135_InitialCreate', '10.0.1');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DELETE FROM "__EFMigrationsLock";
+Done.

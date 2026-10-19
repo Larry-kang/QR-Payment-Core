@@ -1,0 +1,1 @@
+review PASS: startup, Swagger route, POST=200/Created, duplicate=409, missing key=400, SQLite amount/currency/status and count=1

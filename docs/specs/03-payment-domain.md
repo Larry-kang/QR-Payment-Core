@@ -1,5 +1,7 @@
 # 03. Payment Domain
 
+> 規劃草案：本文件描述未來探索方向，不代表已實作或通過驗證；現況以 [README](../../README.md) 與 [本輪驗證](../neutralization-review.md) 為準。本輪僅調整命名與定位，不實作這些能力。
+
 ## 1. Aggregate Model
 
 Payment must not be represented by a single mutable `Transaction` entity.
