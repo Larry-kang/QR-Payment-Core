@@ -1,6 +1,6 @@
 # 主被掃支付交易核心（QR-Payment-Core）
 
-使用通用 QR 支付情境與模擬支付服務，探索主掃、被掃交易流程與交易可靠性的 C#／.NET 個人 POC。
+以通用 QR 支付為題的 C#／.NET 早期 POC，目前聚焦交易記錄 API 與資料約束；主掃、被掃付款流程及支付服務模擬器列為後續規劃。
 
 - **主掃**：使用者掃描商家 QR Code（merchant-presented）。
 - **被掃**：商家掃描使用者付款 QR Code（consumer-presented）。
@@ -57,4 +57,4 @@ curl -i http://localhost:5090/api/Payment \
 
 ## 本人與 AI Agent 的貢獻
 
-本人負責需求、規格討論與成果驗收；程式主要透過 AI Agent 協作建立。本作品是個人 POC，不作為本人獨立手寫全部程式或具備正式金融服務完整能力的證明。
+定義交易記錄規格與驗收情境，以 Agent 協作建立並驗證早期 POC。完成範圍與限制列於上方表格及驗證紀錄。
