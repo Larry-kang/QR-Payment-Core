@@ -1,8 +1,10 @@
 # 01. Product Scope & System Context
 
+> 規劃草案：本文件描述未來探索方向，不代表已實作或通過驗證；現況以 [README](../../README.md) 與 [本輪驗證](../neutralization-review.md) 為準。本輪僅調整命名與定位，不實作這些能力。
+
 ## 1. Product Definition
 
-TWQR-Transaction-Core 將演進為一套 **Payment Platform Reference System**。
+QR-Payment-Core 定位為「使用通用 QR 支付情境與模擬支付服務，探索主掃、被掃交易流程與交易可靠性的 C#／.NET 個人 POC」。
 
 系統定位不是正式金融服務，也不接觸真實資金，而是用於展示支付平台後端的核心工程能力。
 
@@ -18,7 +20,7 @@ TWQR-Transaction-Core 將演進為一套 **Payment Platform Reference System**�
 
 ## 3. System Boundary
 
-### In Scope
+### Future Exploration Scope (not implemented)
 
 - Consumer Account / Wallet
 - Merchant / Store / Terminal
@@ -51,7 +53,7 @@ TWQR-Transaction-Core 將演進為一套 **Payment Platform Reference System**�
 - 真實銀行清算
 - 真實 Blockchain Custody
 - 信用卡授信 / 帳單 / 循環利息
-- 真實 TWQR proprietary protocol implementation
+- 任何真實支付品牌的專有協定實作
 - 真實 KYC / AML Decision Engine
 - Production HSM / PCI certification
 
@@ -108,7 +110,7 @@ V1 採：
 
 ## 6. Product Success Criteria
 
-V1 至少可完整 Demo：
+未來候選 Demo 目標（目前均未完成）：
 
 1. Consumer Wallet Top-up
 2. Merchant QR 主掃付款

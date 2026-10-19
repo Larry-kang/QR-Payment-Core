@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>QrPayment.UnitTests</RootNamespace>
+    <AssemblyName>QrPayment.UnitTests</AssemblyName>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\QrPayment.WebAPI\QrPayment.WebAPI.csproj" />
+    <ProjectReference Include="..\..\src\QrPayment.Application\QrPayment.Application.csproj" />
+    <ProjectReference Include="..\..\src\QrPayment.Domain\QrPayment.Domain.csproj" />
+    <ProjectReference Include="..\..\src\QrPayment.Infrastructure\QrPayment.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

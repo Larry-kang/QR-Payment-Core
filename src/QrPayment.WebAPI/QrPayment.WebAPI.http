@@ -1,0 +1,14 @@
+@QrPayment.WebAPI_HostAddress = http://localhost:5090
+
+### Synthetic record creation only; no QR scan or money movement.
+POST {{QrPayment.WebAPI_HostAddress}}/api/Payment
+Content-Type: application/json
+Idempotency-Key: synthetic-demo-001
+
+{
+  "merchantId": "fictional-merchant-001",
+  "amount": 100,
+  "orderId": "synthetic-order-001"
+}
+
+### Repeating the same key above returns 409; a missing key returns 400.
